@@ -4387,9 +4387,15 @@ body.noscroll {
     /* height: 70%; */
 }
 
+.logo {
+    color: #000;
+    margin-left: 1em;
+}
+
 @media only screen and (max-width: 500px) {
     .change {
         background-image: url("../../images/WhatsApp1.jpeg");
+        background-size: cover;
     }
     .no-copy {
         display: none;
@@ -4425,6 +4431,10 @@ body.noscroll {
 
 .yo a {
     color: #333;
+}
+
+.show {
+    /* display: none; */
 }
 
 
