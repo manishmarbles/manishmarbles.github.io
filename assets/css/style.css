@@ -2756,7 +2756,7 @@ a.carousel-control span.fa {
     text-shadow: -2px 2px 0px rgb(106 39 51), -2px 4px 2px rgb(106 39 51);
 }
 
-.section-header h5 {
+.section-header h4 {
     font-size: 1.3em;
     font-weight: bold;
     margin: 0 auto .5em;
@@ -4227,19 +4227,19 @@ body.noscroll {
         margin: 0;
     } */
     .section-header .content h1 {
-        font-size: 3.3em;
+        font-size: 4.3em;
         letter-spacing: 0.07em;
         /* line-height: 1.7; */
     }
     .section-header .content h1 span {
         font-size: 1em;
     }
-    .section-header .content h5 {
-        font-size: 1.125em;
+    .section-header .content h4 {
+        font-size: 1.5em;
         /* margin-top: 50px; */
     }
     .section-header .content .separator {
-        width: 12em;
+        width: 18em;
     }
 }
 
@@ -4368,7 +4368,7 @@ body.noscroll {
 }
 
 .change {
-    background-image: url("../../images/newBG.jpg");
+    background-image: url("../../images/newBG.webp");
     background-size: cover;
     background-position: center;
     /* max-height: 100%; */
@@ -4397,7 +4397,7 @@ body.noscroll {
 
 @media only screen and (max-width: 500px) {
     .change {
-        background-image: url("../../images/newBG.jpg");
+        background-image: url("../../images/newBG.webp");
         background-size: cover;
     }
     .no-copy {
