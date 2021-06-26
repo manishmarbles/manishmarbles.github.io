@@ -70,7 +70,11 @@ h4 {
 img+a:link {
     text-decoration: underline;
 }
-
+.products {
+    height: 252px !important;
+    object-fit: none;
+    width: 100%;
+}
 
 /* .thumbnail img {
     height: 250px !important;
@@ -83,16 +87,19 @@ img+a:link {
 
 @media only screen and (min-width:768px) {
     .left {
-        margin-left: 2.4em;
+        margin-left: 0;
     }
     .left1 {
-        margin-left: 2.8em;
+        margin-left: 5.8em;
     }
     .center {
         display: flex;
     }
-    /* .center1 {
-        display: flex;
+    .last {
+        position: relative;
         margin: 0 auto;
-    } */
+    }
+    .products {
+        height: 282px !important;
+    }
 }

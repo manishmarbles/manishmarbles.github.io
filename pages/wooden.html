@@ -66,8 +66,8 @@
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li>
                         <a href="../index.html#whoWeAre" data-scroll="false" data-id="#whoWeAre">
-                                About
-                                </a>
+                            About
+                        </a>
                     </li>
                     <!-- <li>
                         <a href="" data-scroll="true" data-id="#projects">
@@ -76,18 +76,18 @@
                     </li> -->
                     <li>
                         <a href="../index.html#clients" data-scroll="false" data-id="#clients">
-                                Brands
-                            </a>
+                            Brands
+                        </a>
                     </li>
                     <li>
                         <a href="../index.html#contact" data-scroll="false" data-id="#contact">
-                                Contact
-                            </a>
+                            Contact
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-item nav-link dropdown-toggle" data-scroll="true" data-id="#workflow" type="button" id="dropdownMenuButton" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Products <span class="caret"></span>
-                            </a>
+                            Products <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item" href="./marbles.html">Marbles</a></li>
                             <li><a class="dropdown-item" href="./granites.html">Granites</a></li>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="row card add-animation animation-4 center">
-                <div class="col-sm-3 thumbnail col-xs-offset-2 col-xs-8 left">
+                <div class="col-sm-3 thumbnail col-xs-offset-2 col-xs-8 left last" style="width: 253px;">
                     <img class="resp" src="../images/products/egger.png" alt="egger" />
                     <a target="_blank" href="https://www.egger.com/shop/en_IN/products/flooring/laminate">
                         <h5 class="text-center">Egger</h5>
@@ -276,22 +276,22 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/MANISHMARBLESINDIA/" class="btn btn-social btn-facebook btn-simple">
+                                    <a href="https://www.facebook.com/MANISHMARBLESINDIA/" class="btn btn-social btn-facebook btn-simple" target="_blank">
                                         <i class="fa fa-facebook-square"></i> Facebook
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/manishmarbles" class="btn btn-social btn-dribbble btn-simple">
+                                    <a href="https://www.instagram.com/manishmarblesindia" class="btn btn-social btn-dribbble btn-simple" target="_blank">
                                         <i class="fa fa-instagram"></i> Instagram
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/manish_marbles" class="btn btn-social btn-twitter btn-simple">
+                                    <a href="https://twitter.com/manish_marbles" class="btn btn-social btn-twitter btn-simple" target="_blank">
                                         <i class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://linkedin.com/company/manishmarbles" class="btn btn-social btn-reddit btn-simple">
+                                    <a href="https://linkedin.com/company/manishmarbles" class="btn btn-social btn-reddit btn-simple" target="_blank">
                                         <i class="fa fa-linkedin"></i> Linkedin
                                     </a>
                                 </li>
@@ -311,27 +311,26 @@
             var modal = document.getElementById("modal");
 
             // Get the button that opens the modal
-            var btn = document.getElementById("popup");
+            const btn = document.getElementById("popup");
 
             // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-                console.log(modal, btn, span);
+            const span = document.getElementsByClassName("close")[0];
+                
             // When the user clicks the button, open the modal 
             btn.onclick = function() {
-                console.log("clicked");
-            modal.style.display = "block";
+                modal.style.display = "block";
             }
 
             // When the user clicks on <span> (x), close the modal
             span.onclick = function() {
-            modal.style.display = "none";
+                modal.style.display = "none";
             }
 
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
             }
         </script>
 </body>
