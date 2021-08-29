@@ -4413,6 +4413,22 @@ body.noscroll {
     text-decoration: underline;
 }
 
+.map-marker {
+    bottom: 12vh;
+    position: fixed;
+    right: 3vw;
+    z-index: 99;
+}
+/* .map-marker:hover {
+    font-size: 4em;
+} */
+.map-marker button {
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 3em;
+}
+
 @media only screen and (max-width: 500px) {
     .change {
         background-image: linear-gradient(90deg, rgb(13,42,51) 50%, rgb(106,39,51) 50%);
@@ -4427,7 +4443,13 @@ body.noscroll {
     .social {
         bottom: 2vh;
         right: 2vw;
-    } 
+    }
+    .map-marker {
+        right: 7vw;
+    }
+    .map-marker button {
+        font-size: 4em;
+    }
     div .svg {
         height: 8vh;
         width: 14vw;
@@ -4555,7 +4577,14 @@ body.noscroll {
   }
 
   .address hr {
-      border-top: 1px solid black;
+    border-top: 1px solid black;
+  }
+  .address a:hover {
+    text-decoration: underline;
+  }
+  .address .gutter {
+      width: fit-content;
+      margin: 0 auto;
   }
 
   #popup {
