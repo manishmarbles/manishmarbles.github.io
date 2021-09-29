@@ -4416,7 +4416,7 @@ body.noscroll {
 .map-marker {
     bottom: 12vh;
     position: fixed;
-    right: 3vw;
+    right: 4vw;
     z-index: 99;
 }
 /* .map-marker:hover {
@@ -4440,18 +4440,18 @@ body.noscroll {
     /* .no-show { */
         /* display: none; */
     /* } */
-    .social {
+    /* .social {
         bottom: 2vh;
         right: 2vw;
-    }
+    } */
     .map-marker {
-        right: 7vw;
+        right: 9vw;
     }
     .map-marker button {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     div .svg {
-        height: 8vh;
+        height: 7vh;
         width: 14vw;
     }
     /* .section-header h1 {
@@ -4504,7 +4504,7 @@ body.noscroll {
     position: fixed;
     z-index: 99;
     bottom: 2vh;
-    right: 1vw;
+    right: 2vw;
     display: grid;
     grid-gap: 1em;
 }
@@ -4558,7 +4558,7 @@ body.noscroll {
     border: 1px solid #888;
     width: 21%;
     top: 46vh;
-    left: 33vw;
+    left: 32vw;
   }
   
   /* The Close Button */
